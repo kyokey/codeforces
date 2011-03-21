@@ -15,7 +15,7 @@ def solve(head,ins):
     return (len(sa),len(sb))
 ins=[]
 for s in sys.stdin:
-    ins.append(s[:-1])
+    ins.append(s.strip())
 r1,r2=0,0
 for v in ins:
     sp=v.split('\\')
